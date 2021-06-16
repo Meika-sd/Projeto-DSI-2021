@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+ a{text-decoration: none;}
+ h1{font-family: Caveat ;}
+ p {font-size: larger;}
+
+ body {
+     color: rgb(0, 0, 0);
+     background-color: rgb(251, 251, 213);
+     text-align: center;
+     margin: 0;
+     }
+
+ header {
+     background-color: rgb(250, 214, 67);
+     text-align: left;
+     padding: 10px 50px 10px 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     z-index: 1;
+     box-sizing: border-box;
+}
+
+header nav ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+header nav ul li {list-style-type: none;}
+
+header nav ul li a {color: rgb(75, 75, 75);}
+
+header nav ul li a:hover {color: rgb(146, 108, 21);}
+
+
+
+
+
+
+
+
+
+ section {
+    background-color: white;
+    max-width: 750px;
+    padding: 50px;
+    text-align: center;
+    margin: 15px auto;
+    border:1px rgb(228, 194, 93) solid;
+}
+
+ul{text-align: left}
+
+main {
+    max-width: 960px;
+    margin: 70px auto 0 auto;
+    padding: 50px 30px;
+}
+
+.blocks-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blocks-section div{
+        background-color: rgb(255, 196, 0);
+        box-sizing: border-box;
+        width: 49%;
+        height: 250px;
+        margin: 1px;
+}
+
+.profile-section:nth-of-type(1) {
+    padding-top: 0px;
+    height: 300px;
+}
+.profile-section:nth-of-type(1) img{
+    position: relative;
+    top: -25px;
+    box-shadow: 0px -2px 3px 1px rgb(80, 79, 9);
+    border-radius: 50%;
+}
+
+
+
+ footer {
+     background-color: #3A3A3A;
+     color: white;
+     padding: 50px;
+     text-align: center;
+     width: 100%;
+ }
+
+ footer p{margin: 0px;}
+
+ @media screen and (min-width: 420px){
+    .hamburger {
+
+        font-size: 33px;
+        border: 1px solid;
+    }
+    
+    .top-container nav{
+        width: 100%;
+        background-color: transparent;
+        position: static;
+        font-size: 1.3em;
+        box-shadow: none;
+    }
+    
+    .top-container nav ul {
+        flex-direction: row;
+    }
+    
+    .top-container nav ul li {
+        padding: 0;
+    }
+
+    
+    }
+ 
+ 
